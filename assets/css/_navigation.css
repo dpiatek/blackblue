@@ -1,0 +1,21 @@
+.navigation {
+  margin-bottom: 4rem;
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 1em;
+  border-bottom: 3px solid deepskyblue;
+}
+
+.navigation li > a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  line-height: 1.3;
+}

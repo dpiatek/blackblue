@@ -1,0 +1,17 @@
+{{!< default}}
+{{#post}}
+
+<main role="main">
+  <article class="article {{post_class}}">
+    <header class="article-header">
+      <h2 class="article-title">{{title}}</h2>
+      <time class="article-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+    </header>
+
+    <section class="article-content">
+      {{content}}
+    </section>
+  </article>
+</main>
+
+{{/post}}
